@@ -1,6 +1,9 @@
 {
   "name": "hustlsh.github.io",
-  "version": "0.0.0",
+  "version": "0.0.1",
+  "config":{
+    "port":3000
+  },
   "license": "MIT",
   "scripts": {
     "start": "node ./bin/babel"
@@ -22,6 +25,8 @@
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
-    "babel-register": "^6.26.0"
+    "babel-register": "^6.26.0",
+    "webpack": "^4.28.2",
+    "webpack-middleware": "^1.5.1"
   }
 }
